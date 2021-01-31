@@ -109,7 +109,8 @@
 
 // -----------------------------------------------
 // orbitControlsの設定
-// 
+// 左クリックで回転、ホイールで拡大縮小、右クリックで平行移動
+// OSによって異なる可能性あり
 // -----------------------------------------------
     var controls;
     controls = new THREE.OrbitControls(camera,renderer.domElement);
